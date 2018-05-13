@@ -76,6 +76,7 @@ function woo_ub_product_filter( $query ) {
         ) )
         );
         return;
+        
     }
 }
 add_action( 'pre_get_posts', 'woo_ub_product_filter', 1 );
